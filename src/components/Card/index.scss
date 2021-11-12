@@ -1,0 +1,20 @@
+@import "../../styles/globals.scss";
+
+.services_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $lightred;
+  width: 260px;
+  height: 400px;
+  padding: 2.5rem 1rem;
+  color: #fff;
+  font-family: $lato;
+
+  .card_title {
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 2rem 0;
+  }
+}

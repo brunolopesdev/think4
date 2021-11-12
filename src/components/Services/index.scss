@@ -1,0 +1,63 @@
+@import "../../styles/globals.scss";
+
+.services_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/servicesBg.png");
+  position: relative;
+  padding: 10rem 0;
+
+  .services_section-wrapper {
+    max-width: 1100px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0.5rem;
+
+    .services_section-text {
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+
+      .services_title {
+        font-weight: normal;
+        font-family: $lato;
+        font-size: 60px;
+        text-transform: uppercase;
+
+        @media screen and (max-width: 768px) {
+          font-size: 40px;
+        }
+      }
+
+      .services_subtitle {
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-top: 1.5rem;
+      }
+
+      .services_text {
+        font-size: 14px;
+        padding-top: 1.25rem;
+      }
+    }
+
+    .services_card-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      padding-top: 6rem;
+
+      @media screen and (max-width: 1024px) {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

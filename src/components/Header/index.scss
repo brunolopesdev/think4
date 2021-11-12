@@ -1,0 +1,46 @@
+@import "../../styles/globals.scss";
+
+.main_header {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: transparent;
+  position: absolute;
+  top: 0;
+
+  @media screen and (max-width: 425px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main_header-logo {
+    font-family: $damion;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .main_header-nav {
+    display: flex;
+
+    ul {
+      font-family: $lato;
+      display: flex;
+      list-style: none;
+
+      li {
+        padding-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 75px;
+        cursor: pointer;
+
+        &:hover {
+          background: $lightblue;
+        }
+      }
+    }
+  }
+}

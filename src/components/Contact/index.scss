@@ -1,0 +1,190 @@
+@import "../../styles/globals.scss";
+
+.contact_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url("../../assets/contactBg.png");
+  padding: 10rem 0;
+
+  .contact_section-wrapper {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0.25rem;
+
+    .contact_section-text {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+
+      .contact_title {
+        font-weight: normal;
+        font-family: $lato;
+        font-size: 60px;
+        text-transform: uppercase;
+
+        @media screen and (max-width: 768px) {
+          font-size: 40px;
+        }
+      }
+
+      .contact_text {
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 1.25rem;
+      }
+    }
+
+    .contact_section-forms {
+      padding-top: 5rem;
+      font-family: $lato;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+
+      @media screen and (max-width: 1024px) {
+        flex-wrap: wrap;
+        padding-top: 4rem;
+      }
+
+      .contact_section-adress {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        color: #fff;
+        gap: 30px;
+
+        @media screen and (max-width: 768px) {
+          flex-wrap: wrap;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .adress-info {
+          h2 {
+            font-weight: 400;
+            font-size: 30px;
+            padding-bottom: 1rem;
+          }
+
+          .city-name {
+            color: #c0dfda;
+            font-size: 20px;
+            padding-bottom: 1rem;
+          }
+
+          .street-name {
+            font-size: 16px;
+          }
+
+          .district-name {
+            font-size: 16px;
+          }
+
+          .contact-info {
+            padding-top: 3rem;
+          }
+        }
+
+        .map-image {
+          display: flex;
+          align-items: center;
+          justify-content: flex;
+          img {
+            width: 260px;
+            height: 220px;
+          }
+        }
+      }
+
+      .ask-question {
+        h2 {
+          font-weight: 400;
+          font-size: 30px;
+          padding-bottom: 1rem;
+          color: #fff;
+        }
+
+        .inputs {
+          display: flex;
+          gap: 30px;
+
+          input {
+            width: 255px;
+            height: 40px;
+            background: #68a097;
+            border: none;
+            border-radius: 4px;
+
+            &:focus {
+              background: #fff;
+              outline: none;
+            }
+
+            &::placeholder {
+              color: #7bbdb3;
+            }
+          }
+          @media screen and (max-width: 425px) {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+
+        .textarea {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding-top: 1rem;
+
+          textarea {
+            border: none;
+            background: #68a097;
+            width: 540px;
+            height: 150px;
+            border-radius: 4px;
+
+            &:focus {
+              background: #fff;
+              outline: none;
+            }
+
+            &::placeholder {
+              color: #7bbdb3;
+            }
+
+            @media screen and (max-width: 425px) {
+              width: 255px;
+              height: 150px;
+            }
+          }
+          button {
+            margin-top: 1rem;
+            font-size: 26px;
+            font-weight: bold;
+            color: #fff;
+            border: none;
+            background: #df5c64;
+            width: 260px;
+            height: 50px;
+            border-radius: 4px;
+            border-bottom: 4px solid #c85259;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

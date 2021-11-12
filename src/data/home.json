@@ -1,0 +1,76 @@
+{
+	"homeBanner": [
+		{
+			"id": 1,
+			"title": "GOOD IDEAS comes",
+			"subtitle": "FIRST!",
+			"image": "http://placeimg.com/1920/1080/tech?v=01"
+		},
+		{
+			"id": 2,
+			"title": "FIRST GOOD comes",
+			"subtitle": "IDEAS!",
+			"image": "http://placeimg.com/1920/1080/tech?v=02"
+		},
+		{
+			"id": 3,
+			"title": "FIRST IDEAS comes",
+			"subtitle": "GOOD!",
+			"image": "http://placeimg.com/1920/1080/tech?v=03"
+		}
+	],
+	"services": {
+		"title": "Our services",
+		"subtitle": "Cras commodo mattis justo nec lobortis. Nam ut tellus lobortis, ullamcorper massa sit amet",
+		"text": "Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.",
+		"items": [
+			{
+				"id": 1,
+				"title": "Researching",
+				"image": "src/assets/lightbub.png",
+				"slug": "researching",
+				"text": "Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+			},
+			{
+				"id": 2,
+				"title": "Design",
+				"image": "src/assets/wand.png",
+				"slug": "design",
+				"text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+			},
+			{
+				"id": 3,
+				"title": "Development",
+				"image": "src/assets/gears.png",
+				"slug": "development",
+				"text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using."
+			},
+			{
+				"id": 4,
+				"title": "Launch",
+				"image": "src/assets/rocket.png",
+				"slug": "launch",
+				"text": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'."
+			}
+		]
+	},
+	"contact": {
+		"title": "Contact us",
+		"text": "A Think4 é composta por três unidades de negócios e por um time de criativos, programadores, planejadores, produtores de conteúdo, entre outros. Às vezes somos agência. Já em outras, a pegada é de produtora. Em 100% do tempo, somos o que nossos clientes necessitam.",
+		"phone": "+55 11 5183-7446",
+		"email": "teste@think4.com.br",
+		"address": {
+			"street": "Rua Alexandre Dumas",
+			"number": "1601",
+			"district": "Chácara Santo Antônio (Zona Sul)",
+			"city": "São Paulo",
+			"state": "SP",
+			"zipCode": "04717-004"
+		},
+		"social": {
+			"instagram": "https://www.instagram.com/think4/",
+			"facebook": "https://www.facebook.com/think4com/",
+			"linkedin": "https://www.linkedin.com/company/think4/"
+		}
+	}
+}
